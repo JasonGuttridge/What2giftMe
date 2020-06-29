@@ -1,0 +1,38 @@
+body{
+    color:white;
+    background-image: url('../images/Cover2.jpg');
+    background-size: cover;
+    background-color: crimson;
+    margin: 0px
+}
+.Header{
+    text-align: center;
+    /* background-image: linear-gradient(to top right, blue, black); */
+}
+.Header h1{
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Header p{
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: large;
+    padding-bottom: 10px;
+    font-style: oblique;
+}
+.RegisterLogin{
+    text-align: center;
+}
+.Register, .Login{
+    display: inline-block;
+    margin: 25px;
+    vertical-align: top;
+    text-align: center;
+}
+#messages{
+    background-color: honeydew;
+    color:black;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}

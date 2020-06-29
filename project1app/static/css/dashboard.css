@@ -1,0 +1,28 @@
+body{
+    background-image: url('../images/Cover3.jpg');
+    /* height:900px; */
+    background-size: cover;
+}
+h2{
+    text-align: right;
+    margin-right: 50px;
+}
+#giftBoard{
+    background-image: url('../images/giftBoard.jpeg');
+    border-style: ridge;
+    border-color: black;
+    display:inline-block;
+    margin:50px;
+}
+#giftBoard p{
+    text-align: center;
+    font-style: oblique;
+    font-size: large;
+}
+.addGift{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 200px;
+    vertical-align: top;
+}

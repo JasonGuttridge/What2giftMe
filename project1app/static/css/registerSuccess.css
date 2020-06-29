@@ -1,0 +1,22 @@
+body{
+    color:white;
+    background-image: url('../images/Success3.png');
+    background-size: cover;
+    background-color: crimson;
+    margin: 0px
+}
+h1{
+    margin:200px 200px 50px 200px;
+    text-align: center;
+}
+h2{
+    text-align: right;
+    margin-right: 50px;
+}
+p{
+    text-align: center;
+    font-size:larger;
+    background-color: honeydew;
+    margin-left: 600px;
+    margin-right: 600px;
+}
