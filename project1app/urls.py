@@ -9,7 +9,7 @@ urlpatterns = [
     path('logout', views.logout),
     path('dashboard', views.dashboard),
     path('addGift', views.addGift),
-    # path('createItem', views.createItem),
+    path('share', views.share),
     # path('add/<idItem>', views.add2list),
     # path('remove/<idItem>', views.removeItem),
     # path('itemInfo/<idItem>', views.itemInfo),
