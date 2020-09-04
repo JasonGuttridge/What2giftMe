@@ -51,6 +51,12 @@ def dashboard(request):
     }
     return render(request,'dashboard.html', context)
 
+def share(request):
+    context = {
+        'newGift': Gift.objects.filter(uploader= User.objects.get(id=request.session['id']))
+    }
+    return render(request,'share.html',context)
+
 def addGift(request):
     newGift = Gift.objects.create(gift = request.POST['gift'],image = request.POST['image'], uploader= User.objects.get(id=request.session['id']))
     return redirect('/dashboard')
